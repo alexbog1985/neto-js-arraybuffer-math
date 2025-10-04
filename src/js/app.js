@@ -12,7 +12,7 @@ export class Char {
       calculatedAttack -= Math.log2(this.distance) * 5;
     }
 
-    return Math.round(calculatedAttack)
+    return Math.round(calculatedAttack);
   }
 
   set attack(value) {
